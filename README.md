@@ -1,5 +1,10 @@
 # Music Player CLI – Simulator Tugas Besar Struktur Data
 
+**Anggota Kelompok**:
+* Nicholas / NIM 103102400047 
+* Devika Widya Vania / 103102400044
+* Avrio de Galyn Athar / 103102400032
+
 **Music Player CLI** adalah *simulator* pemutar musik berbasis terminal
 yang dibuat untuk tugas besar mata kuliah Struktur Data.  
 Simulator ini mencontoh perilaku layanan streaming musik: library lagu,
@@ -7,6 +12,20 @@ playlist, antrian `Up Next`, riwayat pemutaran, dan sistem `Now Playing`
 (durasi lagu hanya disimulasikan, tidak memutar audio sungguhan).
 
 ---
+## Struktur Project
+```
+CLI-Music-Player-Simulator/
+├── YtMusic.py              
+├── songLibrary.csv         
+├── SongLibrary.py          
+├── user.py                 
+├── admin.py                
+├── playlist.py             
+├── HistoryLagu.py          
+├── UpNext.py               
+├── README.md               
+└── COMMIT_LOG.md
+```           
 
 ## Fitur Utama
 
@@ -71,7 +90,16 @@ playlist, antrian `Up Next`, riwayat pemutaran, dan sistem `Now Playing`
 
 ### 2. Langkah Instalasi & Run
 
-1. Clone repository:
+1. **Clone atau download repository** ke perangkat lokal:
    ```bash
-   git clone https://github.com/<username>/<nama-repo>.git
-   cd <nama-repo>
+   git clone https://github.com/Nnichoo/CLI-Music-Player-Simulator.git
+   cd CLI-Music-Player-Simulator
+   ```
+
+2. **Jalankan program simulator**:
+   ```bash
+   python YtMusic.py
+   ```
+   
+
+   
